@@ -12,7 +12,10 @@ function frameIt() {
 }
 
 function pressIt() {
-
+  $('input').on('keydown', function() {
+    const key = e.key
+    if ()
+  })
 }
 
 $(document).ready(function(){
