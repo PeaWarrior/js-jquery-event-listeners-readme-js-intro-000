@@ -10,8 +10,13 @@ function frameIt() {
     this.addClass('tasty')
   })
 }
+
+function pressIt() {
+
+}
+
 $(document).ready(function(){
 
 // call functions here
-
+  getIt()
 });
